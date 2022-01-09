@@ -1,0 +1,18 @@
+title: Easier Apps
+author: cybersafe.vn
+email: supprot@cybersafe.vn
+description: :)
+baseurl: "/ubuild-jekyll" # the subpath of your site, e.g. /blog
+url: "https://easier.cybersafe.vn"
+
+# Build settings
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default" # this ensures all content renders with layouts/default.html
+
+plugins:
+  - jekyll-feed
+  - jekyll-menus
+
